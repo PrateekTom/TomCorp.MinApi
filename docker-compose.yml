@@ -1,0 +1,13 @@
+services:
+  tomcorp.minapi:
+    image: ${DOCKER_REGISTRY-}tomcorpminapi
+    build:
+      context: .
+      dockerfile: TomCorp.MinApi/Dockerfile
+
+  tomcorp.minapi.test:
+    image: ${DOCKER_REGISTRY-}tomcorpminapitest
+    build:
+      context: .
+      dockerfile: TomCorp.MinApi.Test/Dockerfile
+

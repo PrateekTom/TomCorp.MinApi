@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TomCorp.MinApi.Test": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
